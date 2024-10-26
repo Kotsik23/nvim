@@ -6,7 +6,7 @@
 local M = {}
 
 M.base46 = {
-  theme = "nightlamp",
+  theme = "rosepine",
   transparency = true,
 
   hl_override = {
@@ -16,7 +16,8 @@ M.base46 = {
 }
 
 M.term = {
-  cmd = "fastfetch",
+  winopts = { number = false },
+  sizes = { sp = 0.95, vsp = 0.95, ["bo sp"] = 0.5, ["bo vsp"] = 0.5 },
   float = {
     row = 0.05,
     col = 0.10,
