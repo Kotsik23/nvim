@@ -17,13 +17,25 @@ M.base46 = {
 
 M.term = {
   winopts = { number = false },
-  sizes = { sp = 0.95, vsp = 0.95, ["bo sp"] = 0.5, ["bo vsp"] = 0.5 },
+  sizes = { sp = 1, vsp = 1, ["bo sp"] = 1, ["bo vsp"] = 1 },
   float = {
     row = 0.05,
     col = 0.10,
     width = 0.8,
     height = 0.7,
     border = "single",
+  },
+}
+
+M.nvdash = {
+  load_on_startup = true,
+}
+
+M.ui = {
+  cmp = {
+    format_colors = {
+      tailwind = true,
+    },
   },
 }
 
